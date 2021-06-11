@@ -50,6 +50,12 @@ export interface IWeatherError {
   message: string;
 }
 
+export interface IWeatherState {
+    data: IWeatherData | null;
+    loading: boolean;
+    error: string;
+  }
+
 
 //Action Interfaces
 interface IGetWeatherAction{
