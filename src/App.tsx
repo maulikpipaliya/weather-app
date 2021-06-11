@@ -1,14 +1,10 @@
-import React from 'react';
+import React, { FC } from "react";
 
-function App() {
+const App : FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-        <p>
-          My Weather App
-        </p>
-        
+    <div className='App'>
+      <header className='App-header'>
+        <p>Maulik</p>
       </header>
     </div>
   );
