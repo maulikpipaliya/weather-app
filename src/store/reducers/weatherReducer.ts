@@ -6,7 +6,7 @@ const initialState: IWeatherState = {
   loading: false,
 };
 
-export default (
+const weatherReducer =  (
   state = initialState,
   action: IWeatherAction
 ): IWeatherState => {
@@ -21,3 +21,5 @@ export default (
       return state;
   }
 };
+
+export default weatherReducer;
